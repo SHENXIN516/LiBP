@@ -1,0 +1,157 @@
+Checkpoint Inspection Report
+================================================================================
+File: /home/shenxin/LiBP/ckpt/best_model_epoch369_acc0.9505.pt
+
+Keys: ['model_state_dict', 'epoch', 'model_config', 'preprocessing', 'metrics', 'optimizer_state_dict', 'scheduler_state_dict']
+
+Epoch: 369
+
+Model Config:
+{ 'edge_features': 6,
+  'in_channels': 38,
+  'model_name': 'GraphTransformer',
+  'num_hidden_channels': 256}
+
+Preprocessing Config:
+{ 'atom_feature_dim': 38,
+  'bond_feature_dim': 6,
+  'explicit_H': False,
+  'use_chirality': False}
+
+Metrics:
+{ 'test_acc': 0.9504901766777039,
+  'test_auc': 0.974834012484615,
+  'test_f1': 0.9664340312396145,
+  'test_mcc': 0.8724554623570119,
+  'train_loss': 0.07744733104805669}
+
+Model State Dict:
+  node_encoder.weight                                          | Shape: [256, 38]                      | Params: 9,728
+  node_encoder.bias                                            | Shape: [256]                          | Params: 256
+  edge_encoder.weight                                          | Shape: [256, 6]                       | Params: 1,536
+  edge_encoder.bias                                            | Shape: [256]                          | Params: 256
+  gt_block.0.batch_norm1_node_feats.weight                     | Shape: [256]                          | Params: 256
+  gt_block.0.batch_norm1_node_feats.bias                       | Shape: [256]                          | Params: 256
+  gt_block.0.batch_norm1_node_feats.running_mean               | Shape: [256]                          | Params: 256
+  gt_block.0.batch_norm1_node_feats.running_var                | Shape: [256]                          | Params: 256
+  gt_block.0.batch_norm1_node_feats.num_batches_tracked        | Shape: []                             | Params: 1
+  gt_block.0.batch_norm1_edge_feats.weight                     | Shape: [256]                          | Params: 256
+  gt_block.0.batch_norm1_edge_feats.bias                       | Shape: [256]                          | Params: 256
+  gt_block.0.batch_norm1_edge_feats.running_mean               | Shape: [256]                          | Params: 256
+  gt_block.0.batch_norm1_edge_feats.running_var                | Shape: [256]                          | Params: 256
+  gt_block.0.batch_norm1_edge_feats.num_batches_tracked        | Shape: []                             | Params: 1
+  gt_block.0.mha_module.Q.weight                               | Shape: [256, 256]                     | Params: 65,536
+  gt_block.0.mha_module.K.weight                               | Shape: [256, 256]                     | Params: 65,536
+  gt_block.0.mha_module.V.weight                               | Shape: [256, 256]                     | Params: 65,536
+  gt_block.0.mha_module.edge_feats_projection.weight           | Shape: [256, 256]                     | Params: 65,536
+  gt_block.0.O_node_feats.weight                               | Shape: [256, 256]                     | Params: 65,536
+  gt_block.0.O_node_feats.bias                                 | Shape: [256]                          | Params: 256
+  gt_block.0.O_edge_feats.weight                               | Shape: [256, 256]                     | Params: 65,536
+  gt_block.0.O_edge_feats.bias                                 | Shape: [256]                          | Params: 256
+  gt_block.0.node_feats_MLP.0.weight                           | Shape: [512, 256]                     | Params: 131,072
+  gt_block.0.node_feats_MLP.3.weight                           | Shape: [256, 512]                     | Params: 131,072
+  gt_block.0.batch_norm2_node_feats.weight                     | Shape: [256]                          | Params: 256
+  gt_block.0.batch_norm2_node_feats.bias                       | Shape: [256]                          | Params: 256
+  gt_block.0.batch_norm2_node_feats.running_mean               | Shape: [256]                          | Params: 256
+  gt_block.0.batch_norm2_node_feats.running_var                | Shape: [256]                          | Params: 256
+  gt_block.0.batch_norm2_node_feats.num_batches_tracked        | Shape: []                             | Params: 1
+  gt_block.0.batch_norm2_edge_feats.weight                     | Shape: [256]                          | Params: 256
+  gt_block.0.batch_norm2_edge_feats.bias                       | Shape: [256]                          | Params: 256
+  gt_block.0.batch_norm2_edge_feats.running_mean               | Shape: [256]                          | Params: 256
+  gt_block.0.batch_norm2_edge_feats.running_var                | Shape: [256]                          | Params: 256
+  gt_block.0.batch_norm2_edge_feats.num_batches_tracked        | Shape: []                             | Params: 1
+  gt_block.0.edge_feats_MLP.0.weight                           | Shape: [512, 256]                     | Params: 131,072
+  gt_block.0.edge_feats_MLP.3.weight                           | Shape: [256, 512]                     | Params: 131,072
+  gt_block.1.batch_norm1_node_feats.weight                     | Shape: [256]                          | Params: 256
+  gt_block.1.batch_norm1_node_feats.bias                       | Shape: [256]                          | Params: 256
+  gt_block.1.batch_norm1_node_feats.running_mean               | Shape: [256]                          | Params: 256
+  gt_block.1.batch_norm1_node_feats.running_var                | Shape: [256]                          | Params: 256
+  gt_block.1.batch_norm1_node_feats.num_batches_tracked        | Shape: []                             | Params: 1
+  gt_block.1.batch_norm1_edge_feats.weight                     | Shape: [256]                          | Params: 256
+  gt_block.1.batch_norm1_edge_feats.bias                       | Shape: [256]                          | Params: 256
+  gt_block.1.batch_norm1_edge_feats.running_mean               | Shape: [256]                          | Params: 256
+  gt_block.1.batch_norm1_edge_feats.running_var                | Shape: [256]                          | Params: 256
+  gt_block.1.batch_norm1_edge_feats.num_batches_tracked        | Shape: []                             | Params: 1
+  gt_block.1.mha_module.Q.weight                               | Shape: [256, 256]                     | Params: 65,536
+  gt_block.1.mha_module.K.weight                               | Shape: [256, 256]                     | Params: 65,536
+  gt_block.1.mha_module.V.weight                               | Shape: [256, 256]                     | Params: 65,536
+  gt_block.1.mha_module.edge_feats_projection.weight           | Shape: [256, 256]                     | Params: 65,536
+  gt_block.1.O_node_feats.weight                               | Shape: [256, 256]                     | Params: 65,536
+  gt_block.1.O_node_feats.bias                                 | Shape: [256]                          | Params: 256
+  gt_block.1.O_edge_feats.weight                               | Shape: [256, 256]                     | Params: 65,536
+  gt_block.1.O_edge_feats.bias                                 | Shape: [256]                          | Params: 256
+  gt_block.1.node_feats_MLP.0.weight                           | Shape: [512, 256]                     | Params: 131,072
+  gt_block.1.node_feats_MLP.3.weight                           | Shape: [256, 512]                     | Params: 131,072
+  gt_block.1.batch_norm2_node_feats.weight                     | Shape: [256]                          | Params: 256
+  gt_block.1.batch_norm2_node_feats.bias                       | Shape: [256]                          | Params: 256
+  gt_block.1.batch_norm2_node_feats.running_mean               | Shape: [256]                          | Params: 256
+  gt_block.1.batch_norm2_node_feats.running_var                | Shape: [256]                          | Params: 256
+  gt_block.1.batch_norm2_node_feats.num_batches_tracked        | Shape: []                             | Params: 1
+  gt_block.1.batch_norm2_edge_feats.weight                     | Shape: [256]                          | Params: 256
+  gt_block.1.batch_norm2_edge_feats.bias                       | Shape: [256]                          | Params: 256
+  gt_block.1.batch_norm2_edge_feats.running_mean               | Shape: [256]                          | Params: 256
+  gt_block.1.batch_norm2_edge_feats.running_var                | Shape: [256]                          | Params: 256
+  gt_block.1.batch_norm2_edge_feats.num_batches_tracked        | Shape: []                             | Params: 1
+  gt_block.1.edge_feats_MLP.0.weight                           | Shape: [512, 256]                     | Params: 131,072
+  gt_block.1.edge_feats_MLP.3.weight                           | Shape: [256, 512]                     | Params: 131,072
+  gt_block.2.batch_norm1_node_feats.weight                     | Shape: [256]                          | Params: 256
+  gt_block.2.batch_norm1_node_feats.bias                       | Shape: [256]                          | Params: 256
+  gt_block.2.batch_norm1_node_feats.running_mean               | Shape: [256]                          | Params: 256
+  gt_block.2.batch_norm1_node_feats.running_var                | Shape: [256]                          | Params: 256
+  gt_block.2.batch_norm1_node_feats.num_batches_tracked        | Shape: []                             | Params: 1
+  gt_block.2.batch_norm1_edge_feats.weight                     | Shape: [256]                          | Params: 256
+  gt_block.2.batch_norm1_edge_feats.bias                       | Shape: [256]                          | Params: 256
+  gt_block.2.batch_norm1_edge_feats.running_mean               | Shape: [256]                          | Params: 256
+  gt_block.2.batch_norm1_edge_feats.running_var                | Shape: [256]                          | Params: 256
+  gt_block.2.batch_norm1_edge_feats.num_batches_tracked        | Shape: []                             | Params: 1
+  gt_block.2.mha_module.Q.weight                               | Shape: [256, 256]                     | Params: 65,536
+  gt_block.2.mha_module.K.weight                               | Shape: [256, 256]                     | Params: 65,536
+  gt_block.2.mha_module.V.weight                               | Shape: [256, 256]                     | Params: 65,536
+  gt_block.2.mha_module.edge_feats_projection.weight           | Shape: [256, 256]                     | Params: 65,536
+  gt_block.2.O_node_feats.weight                               | Shape: [256, 256]                     | Params: 65,536
+  gt_block.2.O_node_feats.bias                                 | Shape: [256]                          | Params: 256
+  gt_block.2.O_edge_feats.weight                               | Shape: [256, 256]                     | Params: 65,536
+  gt_block.2.O_edge_feats.bias                                 | Shape: [256]                          | Params: 256
+  gt_block.2.node_feats_MLP.0.weight                           | Shape: [512, 256]                     | Params: 131,072
+  gt_block.2.node_feats_MLP.3.weight                           | Shape: [256, 512]                     | Params: 131,072
+  gt_block.2.batch_norm2_node_feats.weight                     | Shape: [256]                          | Params: 256
+  gt_block.2.batch_norm2_node_feats.bias                       | Shape: [256]                          | Params: 256
+  gt_block.2.batch_norm2_node_feats.running_mean               | Shape: [256]                          | Params: 256
+  gt_block.2.batch_norm2_node_feats.running_var                | Shape: [256]                          | Params: 256
+  gt_block.2.batch_norm2_node_feats.num_batches_tracked        | Shape: []                             | Params: 1
+  gt_block.2.batch_norm2_edge_feats.weight                     | Shape: [256]                          | Params: 256
+  gt_block.2.batch_norm2_edge_feats.bias                       | Shape: [256]                          | Params: 256
+  gt_block.2.batch_norm2_edge_feats.running_mean               | Shape: [256]                          | Params: 256
+  gt_block.2.batch_norm2_edge_feats.running_var                | Shape: [256]                          | Params: 256
+  gt_block.2.batch_norm2_edge_feats.num_batches_tracked        | Shape: []                             | Params: 1
+  gt_block.2.edge_feats_MLP.0.weight                           | Shape: [512, 256]                     | Params: 131,072
+  gt_block.2.edge_feats_MLP.3.weight                           | Shape: [256, 512]                     | Params: 131,072
+  gt_block.3.batch_norm1_node_feats.weight                     | Shape: [256]                          | Params: 256
+  gt_block.3.batch_norm1_node_feats.bias                       | Shape: [256]                          | Params: 256
+  gt_block.3.batch_norm1_node_feats.running_mean               | Shape: [256]                          | Params: 256
+  gt_block.3.batch_norm1_node_feats.running_var                | Shape: [256]                          | Params: 256
+  gt_block.3.batch_norm1_node_feats.num_batches_tracked        | Shape: []                             | Params: 1
+  gt_block.3.batch_norm1_edge_feats.weight                     | Shape: [256]                          | Params: 256
+  gt_block.3.batch_norm1_edge_feats.bias                       | Shape: [256]                          | Params: 256
+  gt_block.3.batch_norm1_edge_feats.running_mean               | Shape: [256]                          | Params: 256
+  gt_block.3.batch_norm1_edge_feats.running_var                | Shape: [256]                          | Params: 256
+  gt_block.3.batch_norm1_edge_feats.num_batches_tracked        | Shape: []                             | Params: 1
+  gt_block.3.mha_module.Q.weight                               | Shape: [256, 256]                     | Params: 65,536
+  gt_block.3.mha_module.K.weight                               | Shape: [256, 256]                     | Params: 65,536
+  gt_block.3.mha_module.V.weight                               | Shape: [256, 256]                     | Params: 65,536
+  gt_block.3.mha_module.edge_feats_projection.weight           | Shape: [256, 256]                     | Params: 65,536
+  gt_block.3.O_node_feats.weight                               | Shape: [256, 256]                     | Params: 65,536
+  gt_block.3.O_node_feats.bias                                 | Shape: [256]                          | Params: 256
+  gt_block.3.node_feats_MLP.0.weight                           | Shape: [512, 256]                     | Params: 131,072
+  gt_block.3.node_feats_MLP.3.weight                           | Shape: [256, 512]                     | Params: 131,072
+  gt_block.3.batch_norm2_node_feats.weight                     | Shape: [256]                          | Params: 256
+  gt_block.3.batch_norm2_node_feats.bias                       | Shape: [256]                          | Params: 256
+  gt_block.3.batch_norm2_node_feats.running_mean               | Shape: [256]                          | Params: 256
+  gt_block.3.batch_norm2_node_feats.running_var                | Shape: [256]                          | Params: 256
+  gt_block.3.batch_norm2_node_feats.num_batches_tracked        | Shape: []                             | Params: 1
+  readout_layer.0.weight                                       | Shape: [128, 256]                     | Params: 32,768
+  readout_layer.0.bias                                         | Shape: [128]                          | Params: 128
+  readout_layer.2.weight                                       | Shape: [2, 128]                       | Params: 256
+  readout_layer.2.bias                                         | Shape: [2]                            | Params: 2
+
+Total parameters: 3,404,433

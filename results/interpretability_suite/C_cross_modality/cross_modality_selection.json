@@ -1,0 +1,6 @@
+{
+  "small_molecule_smiles": "N[C@H]1CCC[C@@H]1c1ccccc1",
+  "small_molecule_prob_bbb_plus": 1.0,
+  "peptide_smiles": "O=C1NCCN1C1CCN(CCC2COc3ccccc3O2)CC1",
+  "peptide_prob_bbb_plus": 0.9999792575836182
+}

@@ -1,0 +1,9 @@
+case_id,transformation,transformation_all,effect,similarity,delta_tpsa,delta_hbd,delta_logp,tpsa_dir,hbd_dir,logp_dir
+1,reduce amide,reduce amide; remove heteroatoms,BBB+,0.5409836065573771,-33.870000000000005,0.0,0.042180000000000106,Decrease,No change,Increase
+2,remove hydroxyl,remove hydroxyl,BBB+,0.45,-12.389999999999986,-1.0,1.27052,Decrease,Decrease,Increase
+3,remove hydroxyl,remove hydroxyl; remove heteroatoms,BBB-,0.4587155963302752,-143.05999999999995,-7.0,5.302490000000037,Decrease,Decrease,Increase
+4,reduce amide,reduce amide; remove heteroatoms,BBB-,0.4540229885057471,-77.86000000000013,-3.0,3.147990000000025,Decrease,Decrease,Increase
+5,remove heteroatoms,remove heteroatoms,BBB-,0.4626865671641791,16.99000000000001,1.0,0.6108000000000002,Increase,Increase,Increase
+6,other,other,BBB+,0.5384615384615384,26.3,0.0,-0.42820000000000036,Increase,No change,Decrease
+7,remove heteroatoms,remove heteroatoms,BBB-,0.7741935483870968,0.0,0.0,-0.1391,No change,No change,Decrease
+8,add aromatic ring,add aromatic ring,BBB-,0.4976958525345622,12.38000000000011,3.0,-1.6148700000000709,Increase,Increase,Decrease

@@ -1,0 +1,9 @@
+smiles,label,prob_positive,pred,correct,scaffold
+Cc1nnc2sc(C(=O)NCc3ccc(S(=O)(=O)C(F)F)cc3)c(N)c2c1C,1,0.0487335622310638,0,0,O=C(NCc1ccccc1)c1cc2ccnnc2s1
+Cc1nnc2sc(C(=O)NCc3ccc(S(=O)(=O)C(C)(C)C)cc3)c(N)c2c1C,1,0.0385957285761833,0,0,O=C(NCc1ccccc1)c1cc2ccnnc2s1
+CSc1ccc(CNC(=O)c2sc3nnc(C)c(C)c3c2N)cc1,1,0.005249832291156,0,0,O=C(NCc1ccccc1)c1cc2ccnnc2s1
+Cc1nnc2sc(C(=O)NCc3ccc(S(=O)(=O)C(F)(F)F)cc3)c(N)c2c1C,1,0.0048428033478558,0,0,O=C(NCc1ccccc1)c1cc2ccnnc2s1
+Cc1nnc2sc(C(=O)NCc3ccc(S(F)(F)(F)(F)F)cc3)c(N)c2c1C,1,0.0044028819538652,0,0,O=C(NCc1ccccc1)c1cc2ccnnc2s1
+Cc1nnc2sc(C(=O)NCc3ccc(S(C)(=O)=O)c(F)c3)c(N)c2c1C,1,0.0008810263243503,0,0,O=C(NCc1ccccc1)c1cc2ccnnc2s1
+Cc1nnc2sc(C(=O)NCc3ccc(S(C)(=O)=O)cc3)c(N)c2c1C,0,0.0395433008670806,0,1,O=C(NCc1ccccc1)c1cc2ccnnc2s1
+Cc1nnc2sc(C(=O)NCc3ccc(S(=O)(=O)C(C)C)cc3)c(N)c2c1C,0,0.0165894664824008,0,1,O=C(NCc1ccccc1)c1cc2ccnnc2s1

@@ -1,0 +1,10 @@
+{
+  "input_csv": "/home/shenxin/LiBP/dataset/benchmark_0.csv",
+  "checkpoint": "/home/shenxin/LiBP/ckpt/02best_model_epoch154_acc0.8693.pt",
+  "num_valid_molecules": 200,
+  "outputs": {
+    "A_global_shap_ranking_csv": "/home/shenxin/LiBP/results/interpretability_suite/A_global_shap/global_shap_feature_ranking.csv",
+    "B_local_case_dir": "/home/shenxin/LiBP/results/interpretability_suite/B_local_case_studies",
+    "C_cross_modality_dir": "/home/shenxin/LiBP/results/interpretability_suite/C_cross_modality"
+  }
+}

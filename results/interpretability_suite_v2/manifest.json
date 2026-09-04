@@ -1,0 +1,21 @@
+{
+  "loaded_files": [
+    "/home/shenxin/LiBP/dataset/benchmark_0.csv",
+    "/home/shenxin/LiBP/dataset/benchmark_1.csv",
+    "/home/shenxin/LiBP/dataset/benchmark_2.csv",
+    "/home/shenxin/LiBP/dataset/benchmark_3.csv",
+    "/home/shenxin/LiBP/dataset/benchmark_4.csv",
+    "/home/shenxin/LiBP/dataset/benchmark_5.csv",
+    "/home/shenxin/LiBP/dataset/benchmark_6.csv",
+    "/home/shenxin/LiBP/dataset/benchmark_7.csv",
+    "/home/shenxin/LiBP/dataset/benchmark_8.csv",
+    "/home/shenxin/LiBP/dataset/benchmark_9.csv"
+  ],
+  "checkpoint": "/home/shenxin/LiBP/ckpt/02best_model_epoch154_acc0.8693.pt",
+  "num_valid_molecules": 2000,
+  "outputs": {
+    "A_global": "/home/shenxin/LiBP/results/interpretability_suite_v2/A_global_boxplot",
+    "B_counterfactual": "/home/shenxin/LiBP/results/interpretability_suite_v2/B_counterfactual_case_studies",
+    "C_cross_modality": "/home/shenxin/LiBP/results/interpretability_suite_v2/C_cross_modality"
+  }
+}

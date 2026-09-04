@@ -1,0 +1,18 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Model checkpoints and weights
+ckpt/
+*.pt
+*.pth
+*.ckpt
+
+# Training logs and caches
+wandb/
+runs/
+logs/
+*.log

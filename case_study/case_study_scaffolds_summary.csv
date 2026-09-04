@@ -1,0 +1,4 @@
+scaffold,total,errors,corrects,error_rate,csv,svg
+O=C(NCc1ccccc1)c1cc2ccnnc2s1,8,6,2,0.75,case_scaffold_1.csv,case_scaffold_1.svg
+O=C(NCC1(CC2CC2)C2CN(S(=O)(=O)c3c[nH]cn3)CC21)c1ccccc1,8,5,3,0.625,case_scaffold_2.csv,case_scaffold_2.svg
+N=C(C(=O)NC1C(=O)N2C=CCSC12)c1cscn1,3,1,2,0.3333333333333333,case_scaffold_3.csv,case_scaffold_3.svg

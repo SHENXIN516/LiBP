@@ -1,0 +1,16 @@
+External Test Results
+================================================================================
+Checkpoint: /home/shenxin/LiBP/ckpt/05best_model_epoch206_acc0.8772.pt
+Dataset: /home/shenxin/LiBP/dataset/benchmark_5_from_reference.csv
+Cache: bbbp_graphs2.pt
+Total Samples: 162
+Positive: 85, Negative: 77
+
+Metrics:
+Test AUC: 0.8995
+Test F1:  0.8254
+Test MCC: 0.6041
+Test ACC: 0.7963
+Test BA:  0.7900
+Test SE:  0.9176
+Test SP:  0.6623
